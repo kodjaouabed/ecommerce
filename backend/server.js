@@ -8,10 +8,10 @@ app.use(cors())
 
 
 const db=mysql.createConnection({
-  host:"localhost",
-  user:"root",
-  password:"",
-  database:"ecommerce"
+  host:"bpwl86ld3fty6hkrton8-mysql.services.clever-cloud.com",
+  user:"uh1mjrnywq0ctbwz",
+  password:"jSRmnUhlbhi2pwlpLl72",
+  database:"bpwl86ld3fty6hkrton8"
 })
 
 app.get("/",(req,res)=>{
