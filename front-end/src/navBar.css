@@ -1,0 +1,34 @@
+.navBarContainer{
+    width: 100%;
+    margin-top: 0px;
+}
+.navBarContainerFirst{
+   width: 100%;
+   height: 500px;
+   background: url(../public/images/air-jordan-4-red-metallic-release-date.jpg) no-repeat;
+   background-position-y: -370px;
+   background-position-x: 400px;
+   background-color: whitesmoke;
+  
+}
+.navBarContainerFirst .navBarContainerSecondone{
+ width: 60%;
+ margin: auto;
+ padding-top: 100px;
+}
+.navBarContainerFirst .navBarContainerSecondone h1{
+    text-align: left;
+}
+.navBarContainerFirst .navBarContainerSecondone p{
+    width: 50%;
+    text-align: left;
+}
+.navBarContainerFirst .navBarContainerSecondone button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(194, 7, 7);
+    border: 1px solid rgb(194, 7, 7);
+    color: white;
+    cursor: pointer;
+    
+}

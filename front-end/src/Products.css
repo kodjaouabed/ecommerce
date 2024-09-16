@@ -1,0 +1,50 @@
+.ProductsContainer{
+    width: 100%;
+    height: 100vh;
+    margin-top: 300px;
+}
+.ProductsContainer .ProductsContainerFirst{
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ProductsContainer .ProductsContainerFirst div{
+    width: 30%;
+    height: 300px;
+    margin-top: 150px;
+    background-color: whitesmoke;
+}
+
+.ProductsContainer .ProductsContainerFirst div p{
+    text-align: left;
+}
+.ProductsContainer .ProductsContainerFirst div a{
+    text-decoration: none;
+    color: black;
+}
+.ProductsContainer .ProductsContainerFirst div img{
+    width: 100%;
+    height: 200px;
+}
+.ProductsContainer .ProductsContainerFirst div h6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-family: arial;
+    background-color: white;
+    padding-top: 10px;
+}
+.ProductsContainer .ProductsContainerFirst div span{
+    color: rgb(194, 7, 7);
+}
+.ProductsContainer .ProductsContainerFirst div  button{
+    width: 50%;
+    background-color: rgb(194, 7, 7);
+    border: 1px rgb(194, 7, 7) solid;
+    color: white;
+    padding: 5px;
+}

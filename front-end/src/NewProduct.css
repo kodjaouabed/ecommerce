@@ -1,0 +1,64 @@
+.NewProductContainer{
+    width: 100%;
+    height: 100vh;
+    margin-top: 300px;
+}
+
+.NewProductContainerFirst{
+    width: 100%;
+}
+.NewProductContainerFirstOne{
+    width: 100%;
+    height: 500px;
+    background: url(../public/images/air-jordan-9-gym-red-01.jpg) no-repeat;
+    background-position-x: 400px;
+    background-position-y: -50px;
+    background-color: whitesmoke;
+}
+.NewProductContainerFirstOne .NewProductContainerFirst1{
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+   }
+   .NewProductContainerFirstOne .NewProductContainerFirst1 h1{
+       text-align: left;
+   }
+   .NewProductContainerFirstOne .NewProductContainerFirst1 p{
+    width: 50%;
+    text-align: left;
+}
+.NewProductContainerFirstOne .NewProductContainerFirst1 button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(194, 7, 7);
+    border: 1px solid rgb(194, 7, 7);
+    color: white;
+    cursor: pointer;
+    
+}
+.NewProductContainerSecond{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.NewProductContainerSecond div{
+    width: 22%;
+    margin-top: -30px;
+}
+.NewProductContainerSecond div img{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.NewProductContainerSecond div p{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+}
+.NewProductContainerSecond div h4{
+   color: rgb(194, 7, 7);
+}
