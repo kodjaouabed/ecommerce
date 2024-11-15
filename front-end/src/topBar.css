@@ -14,7 +14,7 @@
     align-items: center;
 }
 .topBarContainerFirst h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:cursive;
 }
 .topBarContainerFirst h2 span{
     color: rgb(194, 7, 7);
@@ -27,9 +27,17 @@
 .topBarContainerFirst .topBarContainerFirstsurchcart input{
     padding: 5px;
 }
-.topBarContainerFirst .topBarContainerFirstsurchcart div{
+.topBarContainerFirst .topBarContainerFirstsurchcart .iconfavoris{
     display: flex;
     gap: 10px;
+}
+.topBarContainerFirst .topBarContainerFirstsurchcart .iconcart{
+    display: flex;
+    gap: 10px;
+}
+
+.topBarContainerFirst .topBarContainerFirstsurchcart .iconmenu{
+    display: none;
 }
 
 .topBarContainer hr{
@@ -60,4 +68,59 @@
     margin-right: -400px;
     transition: 1s;
    
+}
+
+
+@media screen and (max-width:1000px) {
+    .topBarContainerFirst{
+        width: 100%;
+    }
+    .topBarContainerFirst h2{
+        margin-left: 50px;
+    }
+
+    .topBarContainerSecond{
+        width: 100%;
+        padding-left: 50px;
+        
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .topBarContainer{
+        padding-bottom: 0px;
+    }
+    .topBarContainerFirst .topBarContainerFirstsurchcart input{
+        display: none;
+    }
+    .topBarContainerFirst .topBarContainerFirstsurchcart .iconfavoris{
+        display: none;
+    }
+    .topBarContainerFirst .topBarContainerFirstsurchcart .iconmenu{
+        display: block;
+        margin-right: 10px;
+    }
+    .topBarContainerSecond{
+        display: none;
+    }
+    hr{
+        display:  none;
+    }
+    
+}
+
+
+@media screen and (max-width:400px) {
+    
+    .topBarContainerFirst h2{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .topBarContainerFirst .topBarContainerFirstsurchcart .iconfavoris{
+        display: none;
+    }
+    
 }

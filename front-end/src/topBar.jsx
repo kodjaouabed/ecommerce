@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faArrowRight,faHeart, faShoppingBag, faTrash, faXmark} from '@fortawesome/free-solid-svg-icons'
+import {faArrowRight,faBars,faHeart, faShoppingBag, faTrash, faXmark} from '@fortawesome/free-solid-svg-icons'
 import { useSelector,useDispatch} from 'react-redux'
 import { Link } from 'react-router-dom'
 import { AddToCart, DeleteToCart ,ModifiyQToCart} from './cartAction';
@@ -28,8 +28,10 @@ export default function TopBar() {
             <h2>FASHION<span>HUB</span></h2>
             <div className='topBarContainerFirstsurchcart'>
                 <input type="text" name="" id="" placeholder='search by product'/>
-                <div style={{cursor:'pointer'}}><FontAwesomeIcon icon={faShoppingBag} style={{fontSize:"20px"}} onClick={()=>{document.querySelector(".cartContainer").style.marginRight="0px"}}/><span>({cart.length})</span></div>
-                <div style={{cursor:'pointer'}}><FontAwesomeIcon icon={faHeart} style={{fontSize:"20px"}}/><span>({})</span></div>
+                <div className='iconcart'><FontAwesomeIcon icon={faShoppingBag} style={{fontSize:"20px"}} onClick={()=>{document.querySelector(".cartContainer").style.marginRight="0px"}}/><span>({cart.length})</span></div>
+                <div className='iconfavoris'><FontAwesomeIcon icon={faHeart} style={{fontSize:"20px"}}/><span>({})</span></div>
+                <div className='iconmenu'><FontAwesomeIcon icon={faBars} style={{fontSize:"20px"}}/></div>
+           
             </div>
          </div>
          <hr />

@@ -14,7 +14,6 @@ export default function Products() {
   const [products,setproducts]=useState([])
   const dispatch=useDispatch()
   useEffect(()=>{
-     //console.log(cart)
      axios.get("https://ecommerce-vert-nine-78.vercel.app/").then((res)=>setproducts(res.data)).catch((err)=>{console.log(err)})
   },[])
   return (
